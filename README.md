@@ -30,6 +30,13 @@ sudo pacman -S base-devel git git-lfs clang cmake python
     *   Main Branch: `main`
     *   Dev Branch: `dev`
 
+## 🛠️ Current Status: Phase 1 - "The Tactician"
+We are currently building **Prototype A**, focusing on:
+-   **Isometric / Top-Down View** (Completed)
+-   **Character Movement** (WASD via Enhanced Input) (Completed)
+-   **Basic Interaction** (Hover/Click with 'E') (Completed)
+-   **Virtue System Back-end** (Implemented)
+
 ## 📜 Documentation
 *   [Design Document](DESIGN_DOCUMENT.md)
 *   [The Lore of Veridia](LORE_BIBLE.md)

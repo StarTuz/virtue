@@ -37,7 +37,7 @@ Each city embodies a Tenet:
 *   **Martyr's Rest** (Sacrifice): A somber, beautiful city near the Void's edge.
 *   **Lowell** (Humility): A simple farming community, the starting point for many Paragons.
 
-## 5. The Virtual Swirl
+## 5. The Virtue Swirl
 **Location**: The Crossroads of Reality (Accessible from any major Ley-Rift).
 **Description**: The only multiverse-franchised bakery in Veridia.
 **Proprietor**: *Baker Bob* (A mysterious, jolly inter-dimensional being).

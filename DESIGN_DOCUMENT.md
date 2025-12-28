@@ -16,7 +16,7 @@ Players do not take on the role of an "Avatar." Instead, they are **Paragons**â€
 *   **Default Prototype Character**: **Helga**, a female Paragon.
 
 ### 2.3 Locations
-*   **The Virtual Swirl**: The multiverse's only 24/7 confectionery and bakery. Famous for its hypnotic, cinnamon-infused pastries that restore stamina and morale. A copyright-safe homage to the "warp zones" or beloved hangouts of old.
+*   **The Virtue Swirl**: The multiverse's only 24/7 confectionery and bakery. Famous for its hypnotic, cinnamon-infused pastries that restore stamina and morale. A copyright-safe homage to the "warp zones" or beloved hangouts of old.
 
 ## 3. Core Gameplay Pillars
 
@@ -82,5 +82,5 @@ To truly succeed the classics, **Virtue** must implement these beloved, non-nego
 
 ## 6. Immediate Next Steps
 1.  **Lore Bible Initialization**: Define the 8 Principles of Veridia.
-2.  **Asset Acquisition**: Generate "Helga" model and "Virtual Swirl" concept art using AI tools.
+2.  **Asset Acquisition**: Generate "Helga" model and "Virtue Swirl" concept art using AI tools.
 3.  **UE5 Project Setup**: Initialize the repository structure.
