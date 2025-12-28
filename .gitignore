@@ -1,0 +1,37 @@
+# Unreal Engine 5
+Binaries/*
+Build/*
+DerivedDataCache/*
+Intermediate/*
+Saved/*
+Script/*
+
+# VS Code
+.vscode/*
+.history/*
+
+# System
+.DS_Store
+Thumbs.db
+
+# C++
+*.sln
+*.xcodeproj
+*.suo
+*.opensdf
+*.sdf
+*.1.suo
+*.2.suo
+*.3.suo
+*.4.suo
+*.5.suo
+*.6.suo
+*.7.suo
+*.8.suo
+*.9.suo
+*.10.suo
+
+# Backup files
+*.bak
+*.swp
+*.~
