@@ -12,17 +12,20 @@ This document tracks the technical implementation steps for the three prototypin
 - [x] **Movement**: WASD Movement implemented and verified.
 - [x] **Visuals**: Basic geometric placeholder (White Cube) for the Paragon.
 
-### 1.2 Interactivity (Current Focus)
-- [x] **Interaction Interface**: Create `IInteractable` C++ interface.
-- [x] **Base Interactable**: Create `AInteractableActor` (Base class for items/objects).
-- [x] **Player Interaction**: Implement Raycast/SphereCheck in `VirtueCharacter` to detect interactables.
-- [x] **Input Binding**: Bind 'E' or 'Left Click' to Interact action.
-- [x] **Feedback**: Display floating text or highlight when hovering over an object.
+### 1.2 Interactivity (Godot Migration Complete)
+- [x] **Interaction System**: Create `interactable.gd` base script.
+- [x] **Player Raycast**: Implement `_handle_interaction_raycast` in `player.gd`.
+- [x] **Input Handling**: Setup Input Map (`move_`, `interact`) in Project Settings.
+- [x] **Visual Feedback**: Simple tween-based scaling on Focus.
+- [x] **Test Actor**: Created `cone.tscn` with bounce logic.
 
 ### 1.3 The "Living World" Mechanics
-- [ ] **Drag & Drop Physics**: Ability to pick up and move objects (e.g., flour sack).
-- [ ] **Combination System**: Logic for Object A + Object B = Object C (Flour + Water = Dough).
-- [ ] **Inventory System**: Basic grid-based or list-based inventory (if not purely physical).
+- [ ] **Drag & Drop / Physics**:
+    *   Implement `RigidBody3D` picking.
+    *   Create a "Hold" node on the Player to snap objects to.
+- [ ] **Inventory System**: 
+    *   Create `Inventory` Resource (ScriptableObject equivalent).
+    *   UI: Simple GridContainer for items.
 
 ### 1.4 NPC & Dialogue
 - [ ] **NPC Base Class**: Character class with `VirtueSystemComponent`.

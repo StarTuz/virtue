@@ -6,40 +6,33 @@
 
 ## 🚀 Getting Started
 
-### Prerequisites (Arch/Garuda Linux)
-To build and run this project, you will need the following dependencies:
-
-```bash
-sudo pacman -S base-devel git git-lfs clang cmake python
-```
+### Prerequisites
+*   **Godot 4.5+** (Standard Edition). Download from [godotengine.org](https://godotengine.org).
+*   *Optional*: Visual Studio Code (for GDScript editing).
 
 ### Installation
-
 1.  **Clone the Repository**
     ```bash
     git clone https://github.com/StarTuz/virtue.git
-    cd virtue
     ```
+2.  **Open in Godot**
+    *   Launch Godot.
+    *   Click "Import".
+    *   Navigate to the cloned `virtue` folder and select `project.godot`.
+    *   Click "Edit" or "Run".
 
-2.  **Unreal Engine 5**
-    *   Download the **Linux Binaries** from the [Unreal Engine Website](https://www.unrealengine.com/config=Linux).
-    *   Extract the engine to a folder (e.g., `~/Games/UE_5.x`).
-    *   Run `Setup.sh` (if present) and then `GenerateProjectFiles.sh`.
-
-3.  **Verified Contributors**
-    *   Main Branch: `main`
-    *   Dev Branch: `dev`
-
-## 🛠️ Current Status: Phase 1 - "The Tactician"
-We are currently building **Prototype A**, focusing on:
--   **Isometric / Top-Down View** (Completed)
--   **Character Movement** (WASD via Enhanced Input) (Completed)
--   **Basic Interaction** (Hover/Click with 'E') (Completed)
--   **Virtue System Back-end** (Implemented)
+### 🛠️ Current Status: Phase 1 - "The Tactician" (Godot Migration)
+We have successfully pivoted to **Godot 4.5** to improve iteration speed and accessibility.
+*   **Engine**: Godot 4.5 (Forward+ Renderer)
+*   **Language**: GDScript 2.0
+*   **Features Implemented**:
+    *   Isometric Movement (WASD relative to camera).
+    *   Interaction System (Raycast + Interface Pattern).
+    *   Prototyping Sandbox (`main.tscn`).
 
 ## 📜 Documentation
 *   [Design Document](DESIGN_DOCUMENT.md)
 *   [The Lore of Veridia](LORE_BIBLE.md)
 
 ## 🤝 Contributing
-We welcome all contributors! Whether you are a C++ templar, a Blueprint mage, or a bard of Lore, there is a place for you here.
+We welcome all contributors! Whether you are a Godot Wizard, a pixel artist, or a bard of Lore, there is a place for you here.
