@@ -1,7 +1,7 @@
 # Virtue: Project Design Document
 
 ## 1. Executive Summary
-**Virtue** is a community-driven, open-source Role-Playing Game (RPG) designed as a spiritual successor to the legendary *Ultima* series. Built on **Unreal Engine 5**, Virtue aims to modernize the classic CRPG experience while preserving the deep moral philosophy, world interactivity, and open-ended exploration that defined the genre.
+**Virtue** is a community-driven, open-source Role-Playing Game (RPG) designed as a spiritual successor to the legendary *Ultima* series. Built on **Godot 4**, Virtue aims to modernize the classic CRPG experience while preserving the deep moral philosophy, world interactivity, and open-ended exploration that defined the genre.
 
 This project is unique in its **"Open Contribution"** philosophy, welcoming contributors of all skill levels—from manual coders and level designers to lore writers and playtesters.
 
@@ -30,8 +30,8 @@ To ensure polished gameplay mechanics, development will proceed through three di
 
 2.  **Prototype B: "The Explorer" (Immersive 3D)**
     *   **View**: First-Person (FPS) and Third-Person (Over-the-shoulder).
-    *   **Focus**: UE5 Nanite/Lumen visuals, real-time combat mechanics, immersion, physics-based object manipulation.
-    *   **Goal**: Leverage the power of UE5 for modern presentation.
+    *   **Focus**: Godot SDFGI / VoxelGI visuals, real-time combat mechanics, immersion, physics-based object manipulation.
+    *   **Goal**: Leverage Godot's Forward+ Renderer for modern presentation.
 
 3.  **Prototype C: "The Virtue" (Unified Experience)**
     *   **View**: Seamless dynamic zoom.
@@ -66,9 +66,9 @@ To truly succeed the classics, **Virtue** must implement these beloved, non-nego
 
 ## 4. Technical Architecture
 
-*   **Engine**: Unreal Engine 5 (UE5)
+*   **Engine**: Godot 4.5
 *   **Target Platforms**: Linux, Windows, macOS
-*   **Language**: C++ (Core Systems), Blueprints (Content/Scripting)
+*   **Language**: GDScript (Gameplay/Systems), C++ (GDExtension for Performance)
 *   **Asset Pipeline**: 
     *   Use of AI-generated placeholders for rapid prototyping (textures, voice lines, lore drafts).
     *   Community-driven asset replacement for final polish.
@@ -83,4 +83,4 @@ To truly succeed the classics, **Virtue** must implement these beloved, non-nego
 ## 6. Immediate Next Steps
 1.  **Lore Bible Initialization**: Define the 8 Principles of Veridia.
 2.  **Asset Acquisition**: Generate "Helga" model and "Virtue Swirl" concept art using AI tools.
-3.  **UE5 Project Setup**: Initialize the repository structure.
+3.  **Godot Project Setup**: Initialize the repository structure.
